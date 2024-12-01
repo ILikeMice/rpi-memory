@@ -1,0 +1,57 @@
+#gameframe {
+    background-color: transparent;
+    margin-top: 1vh;
+    width: 50vw;
+    height: 80vh;
+    margin-left: 25vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2.5vh;
+}
+
+
+#score {
+    margin-top: 10vh;
+    margin-left: 25vw;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.card {
+    border-radius: 15px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.card:hover {
+    scale: 1.1;
+}
+
+#gameover {
+    display: none;
+    z-index: 2;
+    background-color: rgb(203, 203, 203);
+    border-radius: 30px;
+    width: 14vw;
+    height: 20vh;
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: monospace;
+    margin-left: 43vw;
+    margin-top: 20vh;
+
+}  
+
+#newgame {
+    background-color: rgb(175, 175, 175);
+    font-size: 0.5vw;
+    font-weight: bold;
+    font-family: monospace;
+    height: 3vh;
+    width: 5vw;
+    border-radius: 15px;
+}
